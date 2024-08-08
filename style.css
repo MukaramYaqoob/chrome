@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+body{
+     height: 100vh;
+     font-family: "Roboto", sans-serif;
+     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3) ),url('./img/earth.jpg');    
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.nav{
+     display: flex;
+     flex-direction: row-reverse;
+     align-items: center;
+     justify-content: end;
+     padding:  15px;
+}
+.logo{
+     cursor: pointer;
+     height: 30px;
+     width: 30px;
+     border-radius: 15px;
+     margin-left: 15px;
+}
+.nav i{
+     font-size: 20px;
+     cursor: pointer;
+     margin-left: 15px;
+     color: #fff;
+}
+a{
+     font-size: 20px;
+     margin-left: 15px;
+     color: #fff;
+     text-decoration: none;
+     font-size: 15px;
+}
+a:hover{
+     text-decoration: underline;
+}
+.searchbar{
+     display: flex;
+     align-items:center ;
+     justify-content: center;
+
+}
+.headimg{
+     cursor: pointer;
+     width: 400px;
+}
+header{
+     border-radius: 12px;
+     width: 448px;
+     margin-left: 50px;
+     padding: 15px 40px 15px 25px;
+     background-color: rgba(31, 31, 31, 1.00);
+}
+.input{
+     margin-top: 20px;
+     height: 44px;
+     width: 561px;
+     position: relative;
+}
+input{
+     border: 2px solid #fff;
+     padding-left: 40px;
+     border-radius: 25px;
+     outline: none;
+     width: 100%;
+     height: 100%;
+}
+.searchicon{
+     color: gray;
+     position: absolute;
+     top: 15px;
+     left: 15px ;
+}
+.microicon{
+     color: gray;
+     position: absolute;
+     top: 15px;
+     padding-right: 70px;
+     right: 2px;
+}
+.cameraicon{
+     color: gray;
+     position: absolute;
+     top: 15px;
+     padding-right: 25px;
+     right: 2px;
+}
+.bookmark{
+     width: 400px;
+     margin-top: 30px;
+     display: flex;
+}
+.row{
+     display: flex;
+     align-items: center;
+     justify-content:center;
+     gap: 20px;
+}
+.cool-md-4{
+     width: 120px !important;
+     padding: none !important;
+}
+.site{
+     width: 120px;
+     height: 120px;
+     border-radius: 5px;
+}
+.site:hover{
+     cursor: pointer;
+     background-color: rgba(255, 255, 255, .1);
+}
+.site p{
+     margin-top: 10px;
+     font-size: 12px;
+     text-align: center;
+     color: #fff;
+}
+.site i{
+     font-size: 25px;
+     height: 50px;
+     width: 50px;
+     margin-left: 35px;
+     margin-top: 20px;
+     border-radius: 50%;
+     background-color: rgba(68, 71, 70, 1.00);;
+     text-align: center;
+     padding-top: 12px;
+}
+.fa-instagram{
+     color:#fe018e ;
+}
+.fa-facebook{
+     color:#0f8ff2;
+}
+.fa-google{
+     color:red;
+}
+.fa-figma{
+     color:#ea4c1d;
+}
