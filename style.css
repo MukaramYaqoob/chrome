@@ -105,10 +105,6 @@ input{
      justify-content:center;
      gap: 20px;
 }
-.cool-md-4{
-     width: 120px !important;
-     padding: none !important;
-}
 .site{
      width: 120px;
      height: 120px;
